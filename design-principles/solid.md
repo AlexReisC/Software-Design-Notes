@@ -596,6 +596,16 @@ IoC é quem faz.
 | ISP | Interface enxuta | Impl com método vazio/exception |
 | DIP | Depende de abstração | `new ConcreteClass()` no alto nível |
 
+## Como SOLID trabalha junto
+
+| Princípio | Foco | Previne |
+| --------- | ---- | ------- |
+| SRP | Responsabilidade | God classes |
+| OCP | Extensibilidade | Mudanças frequentes no código |
+| LSP | Herança correta | Quebra no polimorfismo |
+| ISP | Design de interface | Interfaces cheias |
+| DIP | Dependency direction | Alto acoplamento |
+
 ## Insigths
 - SOLID é sobre controlar a mudança
 - Uso excessivo de SOLID → complexidade desnecessária
